@@ -3,6 +3,7 @@ from services.scanner import Scanner as scout
 import os
 import argparse
 import json
+import tkinter as tk
 #ppadb import
 from ppadb.client import Client as AdbClient
 
@@ -40,3 +41,13 @@ for client in scanned_output:
 
 
     #print(device)
+
+
+
+root = tk.Tk()
+
+txt = tk.Label(root, text="Remote Debugger")
+
+txt.pack()
+
+root.mainloop()
