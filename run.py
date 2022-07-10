@@ -48,6 +48,10 @@ root = tk.Tk()
 
 txt = tk.Label(root, text="Remote Debugger")
 
+B = tk.Button(root, text ="Connect", command = print("Connect"))
+
+B.pack()
+
 txt.pack()
 
 root.mainloop()
