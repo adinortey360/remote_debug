@@ -5,7 +5,7 @@
 <h3>Usage</h3>
 <ol>
   <li>Clone the repository:
-  <pre><code>git clone https://github.com/user/repo.git</code></pre></li>
+  <pre><code>git clone https://github.com/adinortey360/remote_debug.git</code></pre></li>
   <li>Install the required modules:
   <pre><code>pip install -r requirements.txt</code></pre></li>
   <li>Run the program and specify the IP address of the target Android device:
